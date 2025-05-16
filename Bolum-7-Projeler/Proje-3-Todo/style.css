@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(33, 130, 122);
+}
+
+
+::placeholder{
+    color: #fff !important; /*color ı ezmek için important kullanıldı*/
+}
+
+.container{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+.todos li {
+    background-color:  rgb(91, 197, 188);;
+}
+.delete{
+    cursor: pointer;
+}
+
+.filtred{
+    display: none !important;
+}
